@@ -14,7 +14,7 @@
 	let difference = "";
 
 	onMount(async () => {
-		const res = await axios.get("http://localhost:8000/api/status");
+		const res = await axios.get("http://pi.hole:8000/api/status");
 
 		const data = res.data;
 
